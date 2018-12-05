@@ -27,3 +27,15 @@ var smoothScrolling = function(opt) {
         console.log('## fma.smoothScrolling ## selector is not defined!')
     }
 };
+
+// ########## EXAMPLE ########## //
+/*
+smoothScrolling({
+    url : [
+        '/',
+        '/home'
+    ],
+    selector : $('#mainnav .menu a')
+});
+ */
+
